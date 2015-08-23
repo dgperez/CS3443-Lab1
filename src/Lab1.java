@@ -26,7 +26,7 @@ public class Lab1 {
 			}
 			
 		    in.close();
-		    System.out.println(numCount + " " + stringCount + " " + numSum);
+		    System.out.printf("%d %d %f\n", numCount, stringCount, numSum);
 		    
 		} catch (Exception FileNotFoundException) {
 		    System.err.println("failed to open data.txt");
